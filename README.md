@@ -8,4 +8,13 @@ You may assume three classes already exist:
 Datapoint: this class represents both raw and processed data points. Any time data moves between methods you may use this class as an abstraction.
 ModeIdentifier: an enum used to identify a processor mode.
 DatabaseIdentifier: an enum used to identify a database connection.
+
+Your task is to draft an ERD for an appropriately normalized relational database that satisfies these requirements:
+
+The database should store information related to the following products.
+Pet food, which has a name, manufacturer, weight, flavor, and target health condition.
+Pet toys, which have an associated material, name, manufacturer, and durability.
+Pet apparel, which has a color, manufacturer, size, name, and specific care instructions.
+
+ 
  
